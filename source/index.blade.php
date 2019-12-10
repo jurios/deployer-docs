@@ -54,25 +54,26 @@
         <div class="mb-8 mx-3 px-2 md:w-1/3">
             <img src="/assets/img/icon-window.svg" class="h-12 w-12" alt="window icon">
 
-            <h3 id="intro-laravel" class="text-2xl text-blue-900 mb-0">Templating with <br>Laravel's Blade engine</h3>
+            <h3 id="intro-laravel" class="text-2xl text-blue-900 mb-0">File changes detections <br>based on git</h3>
 
-            <p>Blade is a powerful, simple, and beautiful templating language, and now you can use it for your static sites, not just your Laravel-powered apps.</p>
+            <p>Deployer uses git in order to list the files which has been added, changed or deleted and deploy the changes
+                to production.</p>
         </div>
 
         <div class="mb-8 mx-3 px-2 md:w-1/3">
             <img src="/assets/img/icon-terminal.svg" class="h-12 w-12" alt="terminal icon">
 
-            <h3 id="intro-markdown" class="text-2xl text-blue-900 mb-0">Use Markdown for <br>content-driven pages</h3>
+            <h3 id="intro-markdown" class="text-2xl text-blue-900 mb-0">Composer dependencies <br>deployment</h3>
 
-            <p>Markdown is the web’s leading format for writing articles, blog posts, documentation, and more. Jigsaw makes it painless to work with Markdown content.</p>
+            <p>Deployer detects changes on your <code>composer.lock</code> file and deploy the dependencies to production.</p>
         </div>
 
         <div class="mx-3 px-2 md:w-1/3">
             <img src="/assets/img/icon-stack.svg" class="h-12 w-12" alt="stack icon">
 
-            <h3 id="intro-mix" class="text-2xl text-blue-900 mb-0">Compile your assets <br>using Laravel Mix </h3>
+            <h3 id="intro-mix" class="text-2xl text-blue-900 mb-0">Extend deployer in order to fit your needs</h3>
 
-            <p>Jigsaw comes pre-configured with Laravel Mix, a simple and powerful build tool. Use the latest frontend tech with just a few lines of code.</p>
+            <p>You can define rules for deploy files which are not tracked by git like compiled files, assets etc.</p>
         </div>
     </div>
 </section>
